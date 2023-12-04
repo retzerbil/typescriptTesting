@@ -1,3 +1,7 @@
 export class Bike{
-    constructor(public brand:string){}
+    constructor(private brand:string){}
+
+    getBrand(){
+        return this.brand;
+    }
 };
