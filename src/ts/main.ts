@@ -31,3 +31,5 @@ for (let i = 0; i < catList.length; i++) {
 const bike1: Bike = new Bike("Yoshemite");
 
 console.log(bike1.getBrand());
+bike1.setBrand("Cube");
+console.log(bike1.getBrand());
